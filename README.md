@@ -16,10 +16,10 @@ MCP server.
 
 ## Setup
 
-### 1. Install the plugin
+### 1. Install the skills
 
 ```bash
-/plugin marketplace add thetechnerdsai/guardian-angel-skills
+npx skills add thetechnerdsai/guardian-angel-skills -a claude-code
 ```
 
 ### 2. Add the Guardian Angel MCP server
