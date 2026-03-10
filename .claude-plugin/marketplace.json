@@ -1,0 +1,26 @@
+{
+  "name": "guardian-angel-skills",
+  "owner": {
+    "name": "The Tech Nerds",
+    "email": "hello@thetechnerds.ai"
+  },
+  "metadata": {
+    "description": "AI-powered consulting oversight workflows for Guardian Angel",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "guardian-angel",
+      "description": "Consulting oversight skills powered by the Guardian Angel MCP server",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/onboard-consultant",
+        "./skills/scope-engagement",
+        "./skills/scaffold-project",
+        "./skills/search-knowledge",
+        "./skills/project-health-check"
+      ]
+    }
+  ]
+}
